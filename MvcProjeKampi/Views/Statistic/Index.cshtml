@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br /><br />
+<h2>İstatistikler</h2>
+<br />
+<div class="card-deck">
+    <div class="card text-white bg-info mb-4 "  style="max-width: 20rem;"> 
+        <div class="card-header">Toplam Kategori Sayısı</div>
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.categoryCount</h5>
+        </div>
+    </div>
+    <div class="card text-white bg-secondary mb-4 "  style="max-width: 20rem;">
+        <div class="card-header">Yazılım Kategorisi Başlık Sayısı</div>
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.Heading</h5>
+        </div>
+    </div>
+    <div class="card text-white bg-primary mb-4 "  style="max-width: 20rem;">
+        <div class="card-header">Yazarların İsimlerinde "a" Harfi Bulunanlar</div>
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.Writer</h5>
+        </div>
+    </div>
+    <div class="card text-white bg-danger mb-4 " style="max-width: 20rem;" >
+        <div class="card-header">En Fazla Başlığı Olan Kategori Adı</div>
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.MostTitles</h5>
+        </div>
+    </div>
+    <div class="card bg-light mb-4 "  style="max-width: 20rem;">
+        <div class="card-header">Kategoriler Tablosunda T/F Farkı</div>
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.CategoryStatus</h5>
+        </div>
+    </div>
+   
+   
+</div>
+
+
