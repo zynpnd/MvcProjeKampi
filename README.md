@@ -5,14 +5,16 @@ Repo Murat Yücedağ ile MVC Proje Kampı konularına paralel olarak geliştiril
 👍 Toplam 100 Dersten oluşacak kampın 40.derse gelinerek birinci ve ikinci sertifika görevi tamamlandı.
 
 ## 1. Görev
-    - Ana katmanlar oluşturuldu(Business Layer, Entity Layer ve Data Access Layer )
-    - Business Layer ve Data Access Layer Entity Framework desteği eklendi.
-    - Veritabanı eklendi.
+---
+   1. Ana katmanlar oluşturuldu(Business Layer, Entity Layer ve Data Access Layer )
+   2. Business Layer ve Data Access Layer Entity Framework desteği eklendi.
+   3. Veritabanı eklendi.
     
 ## 2. Görev
-    - Seçilen Admin Paneli yüklendi.
-    - Seçilen Admin Panelindeki değişikler temaya göre güncellendi.
-    - Kategori ekleme, silme ve güncelleme işlemleri yapıldı.
+---
+   1. Seçilen Admin Paneli yüklendi.
+   2. Seçilen Admin Panelindeki değişikler temaya göre güncellendi.
+   3. Kategori ekleme, silme ve güncelleme işlemleri yapıldı.
    
     
 
